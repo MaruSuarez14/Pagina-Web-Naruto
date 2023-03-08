@@ -166,13 +166,13 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 30px;
+    margin: 40px;
 }
 
 
 .inicio h1 {
     font-size: 45px;
-    margin-top: 170px;
+    margin-top: 200px;
     background-image: linear-gradient(to right, var(--color-7), var(--color-1));
     background-clip: text;
     -webkit-background-clip: text; /* para navegadores webkit */
@@ -493,6 +493,9 @@ p {
         flex-direction: column;
         align-items: center;
     }
+    .inicio-presentacion {
+        flex-direction: column;
+    }
  
 }
 
@@ -504,13 +507,25 @@ p {
     .habilidades-article {
         flex-direction: column;
     }
-    .inicio-presentacion {
-        flex-direction: column;
-    }
     .explicacion-elementos {
         flex-direction: column;
     }
-    
+}
+@media(max-width:620px) {
+    .inicio-presentacion h1{
+        font-size: 30px;
+    }
+    .imagen-inicio {
+        max-width: 400px;
+        height: auto;
+    }
+}
+
+@media(max-width:390px) {
+    .img-personajes {
+        max-width: 50px;
+        height: auto;
+    }
 }
 
 
