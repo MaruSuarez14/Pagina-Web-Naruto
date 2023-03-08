@@ -67,7 +67,12 @@ p {
 
 #personajes, #geografia, #habilidades, #sobreNaruto {
   border-bottom: 6px solid #000;
-  margin-top: 60px;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+#contacto {
+  padding-top: 100px;
 }
 
 .article-black {
@@ -161,7 +166,7 @@ p {
   background-clip: text;
   -webkit-background-clip: text;
   color: #0000;
-  margin: 40px;
+  margin-top: 170px;
   font-size: 45px;
 }
 
